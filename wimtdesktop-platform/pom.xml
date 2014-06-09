@@ -7,14 +7,12 @@
 		<artifactId>wimtdesktop-parent</artifactId>
 		<groupId>co.sudr.wimtdesktop</groupId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../wimtdesktop-parent/pom.xml</relativePath>
 	</parent>
 
-	<artifactId>wimtdesktop-core</artifactId>
-	<name>wimtdesktop-core</name>
-	<url>http://maven.apache.org</url>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+	<artifactId>wimtdesktop-platform</artifactId>
+	<packaging>eclipse-target-definition</packaging>
+	
+	<name>wimtdesktop-platform</name>
 
 </project>

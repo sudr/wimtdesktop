@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WIMTDesktop Task Service
+Bundle-SymbolicName: wimtdesktop-taskservice
+Bundle-Version: 0.0.1.qualifier
+Export-Package: co.sudr.wimtdsktp.task.impl
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: co.sudr.wimtdsktp.task
+Service-Component: OSGI-INF/component.xml
+Bundle-ActivationPolicy: lazy
