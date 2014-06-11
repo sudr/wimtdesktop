@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WIMTDesktop UI
+Bundle-SymbolicName: wimtdesktop-ui
+Bundle-Version: 1.0.0.qualifier
+Import-Package: co.sudr.wimtdsktp.task
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
